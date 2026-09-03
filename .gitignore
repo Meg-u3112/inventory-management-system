@@ -1,0 +1,29 @@
+# ASP.NET Core
+**/bin/
+**/obj/
+**/.vs/
+*.user
+*.suo
+*.log
+
+# React / Node
+**/node_modules/
+**/dist/
+**/.vite/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Test / Coverage
+coverage/
+TestResults/
