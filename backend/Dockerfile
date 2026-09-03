@@ -29,4 +29,4 @@ COPY --from=build /app/publish .
 
 EXPOSE 8080
 
-ENTRYPOINT ["dotnet", "Day21_Inventory_System.dll"]
+ENTRYPOINT ["dotnet", "InventoryManagement.Api.dll"]
